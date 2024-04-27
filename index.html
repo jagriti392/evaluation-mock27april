@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Listing App</h1>
+        <div class="filters">
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <!-- Categories will be dynamically populated -->
+            </select>
+            <input type="text" id="search" placeholder="Search products...">
+            <select id="sort-order">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
+    </header>
+    <main id="products-container">
+        <!-- Product items will be dynamically populated -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
